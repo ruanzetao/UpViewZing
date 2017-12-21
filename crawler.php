@@ -12,9 +12,9 @@ require "simple_html_dom.php";
 		for($i=0;$i<5;$i++){
 			upViewZing();
 			sleep(2);
-			echo "This page will refresh!";
+			echo "This page will refresh!<br>";
 			header("Refresh: 5; url=index.html");
-			// echo "done!";
+			echo "done!";
 		}
 	}
 
